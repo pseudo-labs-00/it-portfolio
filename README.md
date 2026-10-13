@@ -1,39 +1,43 @@
-# IT Portfolio — JEROME MINA
+# IT Portfolio — Jerome Mina
 
-A static IT portfolio website built with HTML, CSS, and vanilla JavaScript. Designed for GitHub Pages.
+A professional IT portfolio website built with HTML, CSS, and vanilla JavaScript. Showcasing my experience in IT operations, systems administration, cloud platforms, endpoint management, and cybersecurity.
 
 ## Files
 
-- `index.html` — page structure and content
-- `style.css` — layout, theme, and responsive styles
-- `script.js` — mobile navigation, copyright year, and image fallbacks
-- `resume.pdf` — add this file in the same folder as `index.html` (View Resume / Download Resume)
-- `JEROME MINA CV.pdf` — add this file for the Resume navigation item
-- `images/projects/network.png`
-- `images/projects/endpoint.png`
-- `images/projects/identity.png`
+- `index.html` — Website structure and content
+- `style.css` — Layout, theme, and responsive styling
+- `script.js` — Mobile navigation, copyright year, and image handling
+- `JEROME MINA CV.pdf` — Resume
+- `images/projects/network.png` — Network Troubleshooting project
+- `images/projects/endpoint.png` — Endpoint Management and Security project
+- `images/projects/identity.png` — IT Operations Documentation project
 
-## Preview locally
+## Preview Locally
 
-From this folder:
+To preview the website locally, run:
 
 ```bash
 python -m http.server 8080
 ```
 
-Then open [http://localhost:8080](http://localhost:8080).
-
-If Python is not installed:
-
-```bash
-npx --yes serve .
-```
+Then open http://localhost:8080 in your browser.
 
 ## Publish on GitHub Pages
 
-1. Push these files to the default branch of [https://github.com/pseudo-labs-00](https://github.com/pseudo-labs-00) (or a dedicated repository such as `it-portfolio`).
-2. Open **Settings → Pages**.
-3. Set **Source** to **Deploy from a branch**, choose the default branch and `/ (root)`, then save.
-4. The site will be available at a URL such as `https://pseudo-labs-00.github.io/` or `https://pseudo-labs-00.github.io/it-portfolio/`.
+1. Open the repository's **Settings**.
+2. Select **Pages**.
+3. Under **Build and deployment**, choose **Deploy from a branch**.
+4. Select `main` and `/(root)`.
+5. Click **Save**.
 
-Relative paths are used so CSS, JavaScript, resume files, and project images resolve correctly from the same folder as `index.html`.
+## Live Portfolio
+
+Visit my portfolio website:
+
+https://pseudo-labs-00.github.io/it-portfolio/
+
+## Contact
+
+- **LinkedIn:** https://www.linkedin.com/in/jerome-mina-895962242/
+- **GitHub:** https://github.com/pseudo-labs-00
+- **Email:** jerome.arendain.mina@gmail.com
